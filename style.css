@@ -25,6 +25,10 @@ nav a{
     display: inline-block;
     width: 80px;
 }
+nav a:hover{
+    color: red;
+    background-color:rgba(210, 180, 140, 0.623) ;
+}
 nav{text-align: center;
     height: 50px;
     background-color: rgb(19, 30, 37);
@@ -34,16 +38,29 @@ nav{text-align: center;
     text-align: center;
     font-family: 'Rampart One', cursive;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 36px;
     color: #ffebcd;
     margin: 100px 100px;
 }
 div p, footer p{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
     color: white ;
     text-align: center;
+    text-decoration: underline;
+    margin: 10px 0px;
+
+}
+.images{
+    text-align: center;
+}
+.images img{
+    border-radius: 15px;
+    cursor: pointer;
+}
+.images img:hover{
+    opacity: 0.5;
 }
 section a{
     text-decoration: none;
@@ -52,31 +69,59 @@ section a{
     color: white;
     font-size: 20px;
     line-height: 20px;
+    
+}
+section a:hover{
+    color: orangered;
 }
 section{
     text-align: center;
-    
+    word-spacing: 20px;
 }
 form{
     text-align: center;
-    font-family: ;
+    
 }
-form input, form textarea{
+.in{
     width: 700px;
     height: 50px;
     text-align: center;
-    border-color: white;
+    -webkit-text-fill-color: white;
+    margin :10px;
+    border-color: rgba(170, 170, 31, 0.76);
+    outline-color: red;
+    
+}
+.text{
+    height: 100px;
+    border-color: rgba(170, 170, 31, 0.76);
+    width: 700px;
+    height: 100px;
+    text-align: center;
     -webkit-text-fill-color: white;
     margin :10px
 }
-form textarea{
-    height: 100px;
+.text:focus{
+    outline-color: red;
 }
+
 .send{
     background-color: rgb(210,180,140) ;
     cursor:pointer;
     font-size: 20px;
+    width: 700px;
+    height: 50px;
+    -webkit-text-fill-color: white;
+    font-weight: 800;
+    font-size: 25px;
+    
 }
+.send:hover{
+    -webkit-text-fill-color: orangered;
+    font-size: 30px;
+    height: 60px;
+}
+
 .top a{ 
     text-decoration: none;
     border-radius: 10px;
@@ -95,4 +140,7 @@ form textarea{
 .top{
     text-align: right;
     margin: 20px;
+}
+.there::after{
+   content:"👋"; 
 }
