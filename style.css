@@ -80,22 +80,24 @@ section{
 }
 form{
     text-align: center;
+
+    
     
 }
 .in{
-    width: 700px;
+    width: 50%;
     height: 50px;
     text-align: center;
     -webkit-text-fill-color: white;
-    margin :10px;
     border-color: rgba(170, 170, 31, 0.76);
     outline-color: red;
+    margin: 10px;
     
 }
 .text{
     height: 100px;
     border-color: rgba(170, 170, 31, 0.76);
-    width: 700px;
+    width: 50%;
     height: 100px;
     text-align: center;
     -webkit-text-fill-color: white;
@@ -109,7 +111,7 @@ form{
     background-color: rgb(210,180,140) ;
     cursor:pointer;
     font-size: 20px;
-    width: 700px;
+    width: 50%;
     height: 50px;
     -webkit-text-fill-color: white;
     font-weight: 800;
