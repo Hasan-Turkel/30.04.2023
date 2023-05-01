@@ -73,16 +73,17 @@ section a{
 }
 section a:hover{
     color: orangered;
+    
+    
 }
 section{
     text-align: center;
-    word-spacing: 20px;
-}
+    word-spacing: 50px;
+    line-height: 50px;
+    }
 form{
     text-align: center;
-
-    
-    
+  
 }
 .in{
     width: 50%;
