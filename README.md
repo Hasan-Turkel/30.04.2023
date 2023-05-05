@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-https://hasan-turkel.github.io/30.04.2023/
+https://hasan-turkel.github.io/PORTFOLIO/
